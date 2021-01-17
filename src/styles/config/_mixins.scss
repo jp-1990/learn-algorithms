@@ -3,3 +3,7 @@
   justify-content: $horizontal;
   align-items: $vertical;
 }
+
+@mixin borderRadius {
+  border-radius: 3px;
+}

@@ -1,0 +1,26 @@
+.container {
+  @include flexCenter(center, center);
+
+  flex-direction: column;
+  color: $mainText;
+  text-transform: uppercase;
+  background-color: $colorA;
+  padding: 10px;
+  .titlebox {
+    @include flexCenter(center, center);
+    @include borderRadius;
+    background-color: $colorC;
+    font-weight: 300;
+    width: auto;
+    padding: 18px 10px 12px 10px;
+  }
+  .typebox {
+    @include flexCenter(center, center);
+
+    background-color: $colorE;
+    width: 110%;
+    padding: 8px;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+}
