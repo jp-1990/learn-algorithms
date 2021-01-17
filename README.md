@@ -1,4 +1,4 @@
-# Data Struture and Algorithm learning resource
+# Data Structure and Algorithm learning resource
 
 A server-side rendered static site, built using Gatsby.
 
@@ -21,4 +21,3 @@ A server-side rendered static site, built using Gatsby.
 - Sass
 - JavaScript
 - Gatsby
-- GraphQL
