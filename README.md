@@ -4,15 +4,15 @@ A server-side rendered static site, built using Gatsby.
 
 ![Showcase gif](./src/images/portfolio_showcase.gif)
 **Hosted on [somewhere]**  
-[comming soon]
+[coming soon]
 
 ## Summary
 
-[comming soon]
+[coming soon]
 
 ## What I learned
 
-[comming soon]
+[coming soon]
 
 ## Technologies Used
 
