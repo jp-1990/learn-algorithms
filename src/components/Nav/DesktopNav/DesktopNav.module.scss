@@ -1,0 +1,27 @@
+.nav {
+  width: 100%;
+  height: 80px;
+  background-color: $colorD;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo {
+    margin: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+  }
+  .links {
+    display: flex;
+    a {
+      text-decoration: none;
+      color: white;
+      font-weight: 300;
+      font-size: 2rem;
+      margin: 0 30px;
+    }
+  }
+}

@@ -7,24 +7,21 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./Header/Header"
+import DesktopNav from "./Nav/DesktopNav/DesktopNav.js"
+
+import "../styles/reset.scss"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      <DesktopNav
+        links={[
+          { label: "Data Structures", link: "/dataStructures" },
+          { label: "Algorithms", link: "/algorithms" },
+          { label: "About", link: "/about" },
+        ]}
+      />
       <main>{children}</main>
     </>
   )

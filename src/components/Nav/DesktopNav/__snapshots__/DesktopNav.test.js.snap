@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DesktopNav /> render 1`] = `
+<nav
+  className="nav"
+>
+  <div
+    className="logo"
+  >
+    LOGO
+  </div>
+  <div
+    className="links"
+  >
+    <a
+      href="/dataStructures"
+    >
+      Data Structures
+    </a>
+    <a
+      href="/algorithms"
+    >
+      Algorithms
+    </a>
+    <a
+      href="/about"
+    >
+      About
+    </a>
+  </div>
+</nav>
+`;
