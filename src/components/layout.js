@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import DesktopNav from "./Common/Nav/DesktopNav/DesktopNav.js"
+import ContentWrapper from "./Common/ContentWrapper/ContentWrapper.js"
 
 import "../styles/reset.scss"
 
@@ -22,7 +23,9 @@ const Layout = ({ children }) => {
           { label: "About", link: "/about" },
         ]}
       />
-      <main>{children}</main>
+      <ContentWrapper>
+        <main>{children}</main>
+      </ContentWrapper>
     </>
   )
 }
