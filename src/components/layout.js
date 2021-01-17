@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import DesktopNav from "./Nav/DesktopNav/DesktopNav.js"
+import DesktopNav from "./Common/Nav/DesktopNav/DesktopNav.js"
 
 import "../styles/reset.scss"
 
