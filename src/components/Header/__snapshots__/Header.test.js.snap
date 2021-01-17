@@ -3,7 +3,9 @@
 exports[`Header renders correctly 1`] = `
 <header>
   <div>
-    <h1>
+    <h1
+      data-testid="header-title"
+    >
       <a
         href="/"
       >
